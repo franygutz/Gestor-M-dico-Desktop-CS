@@ -1,0 +1,11 @@
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.csproj.AssemblyReference.cache
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.fRegistroGestor.resources
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.Properties.Resources.resources
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.csproj.GenerateResource.cache
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.csproj.CoreCompileInputs.cache
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\bin\Debug\Gestor Médico - Aplicaciones controles GUI.exe.config
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\bin\Debug\Gestor Médico - Aplicaciones controles GUI.exe
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\bin\Debug\Gestor Médico - Aplicaciones controles GUI.pdb
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.exe
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.pdb
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.contrasenaOlvidada.resources
