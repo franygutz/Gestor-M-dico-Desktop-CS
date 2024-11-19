@@ -44,6 +44,7 @@
             // 
             this.lGestorMdco.AutoSize = true;
             this.lGestorMdco.BackColor = System.Drawing.Color.Transparent;
+            this.lGestorMdco.Cursor = System.Windows.Forms.Cursors.Default;
             this.lGestorMdco.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lGestorMdco.Location = new System.Drawing.Point(355, 56);
             this.lGestorMdco.Name = "lGestorMdco";
@@ -55,6 +56,7 @@
             // 
             this.lingresoCredenciales.AutoSize = true;
             this.lingresoCredenciales.BackColor = System.Drawing.Color.Transparent;
+            this.lingresoCredenciales.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.lingresoCredenciales.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lingresoCredenciales.ForeColor = System.Drawing.SystemColors.GrayText;
             this.lingresoCredenciales.Location = new System.Drawing.Point(356, 80);
@@ -67,6 +69,7 @@
             // 
             this.lUsuario.AutoSize = true;
             this.lUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.lUsuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.lUsuario.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lUsuario.Location = new System.Drawing.Point(356, 117);
@@ -79,6 +82,7 @@
             // 
             this.lContraseña.AutoSize = true;
             this.lContraseña.BackColor = System.Drawing.Color.Transparent;
+            this.lContraseña.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.lContraseña.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lContraseña.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lContraseña.Location = new System.Drawing.Point(356, 190);
@@ -107,26 +111,31 @@
             // 
             // bIngresar
             // 
+            this.bIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bIngresar.Location = new System.Drawing.Point(359, 296);
             this.bIngresar.Name = "bIngresar";
             this.bIngresar.Size = new System.Drawing.Size(86, 23);
             this.bIngresar.TabIndex = 5;
             this.bIngresar.Text = "Ingresar";
             this.bIngresar.UseVisualStyleBackColor = true;
+            this.bIngresar.Click += new System.EventHandler(this.bIngresar_Click);
             // 
             // bSalir
             // 
+            this.bSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bSalir.Location = new System.Drawing.Point(468, 296);
             this.bSalir.Name = "bSalir";
             this.bSalir.Size = new System.Drawing.Size(86, 23);
             this.bSalir.TabIndex = 6;
             this.bSalir.Text = "Salir";
             this.bSalir.UseVisualStyleBackColor = true;
+            this.bSalir.Click += new System.EventHandler(this.bSalir_Click);
             // 
             // lContrasenaOlvidada
             // 
             this.lContrasenaOlvidada.AutoSize = true;
             this.lContrasenaOlvidada.BackColor = System.Drawing.Color.Transparent;
+            this.lContrasenaOlvidada.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lContrasenaOlvidada.Font = new System.Drawing.Font("Arial Narrow", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lContrasenaOlvidada.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.lContrasenaOlvidada.Location = new System.Drawing.Point(406, 241);
@@ -156,6 +165,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "fRegistroGestor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro - Gestor Médico";
             this.ResumeLayout(false);
             this.PerformLayout();
