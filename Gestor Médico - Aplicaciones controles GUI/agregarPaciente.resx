@@ -117,14 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="pbCuadroBlanco.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pbLogoRandom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAWYAAAFWCAYAAABaXDe7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAA/7JJREFUeF7s/XdgXcW1/o3//nh/7/cG3Cs1hOSm3Nzke0tuQscGTDGdhCSEQAqB
+        vgAADr4B6kKxwAAA/7JJREFUeF7s/XdgXcW1/o3//nh/7/cG3Cs1hOSm3Nzke0tuQscGTDGdhCSEQAqB
         mwK2uukQEgjYklVc6bhg3C0XSZYlWf2ouPfemySrl9PL8z7P7HNk2Ra2TAyW7b3spX36nr337M+sWbNm
         zf8Ptthiiy22dCuxwWyLLbbY0s3EBrMttthiSzcTG8y22GKLLd1MbDDbYosttnQzscFsiy222NLNxAaz
         LbbYYks3ExvMtthiiy3dTGww22KLLbZ0M7HBbIstttjSzcQGsy222GJLNxMbzLbYYost3UxsMNtiiy22

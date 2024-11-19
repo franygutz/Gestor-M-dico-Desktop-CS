@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="agregarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregarCita.Designer.cs">
+      <DependentUpon>agregarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="agregarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregarPaciente.Designer.cs">
+      <DependentUpon>agregarPaciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="contrasenaOlvidada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +70,28 @@
     <Compile Include="form_registroGestor.Designer.cs">
       <DependentUpon>form_registroGestor.cs</DependentUpon>
     </Compile>
+    <Compile Include="HubUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HubUsuario.Designer.cs">
+      <DependentUpon>HubUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="agregarCita.resx">
+      <DependentUpon>agregarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agregarPaciente.resx">
+      <DependentUpon>agregarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="contrasenaOlvidada.resx">
       <DependentUpon>contrasenaOlvidada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form_registroGestor.resx">
       <DependentUpon>form_registroGestor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HubUsuario.resx">
+      <DependentUpon>HubUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

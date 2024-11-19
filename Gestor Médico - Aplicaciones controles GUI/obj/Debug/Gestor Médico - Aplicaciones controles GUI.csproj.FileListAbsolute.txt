@@ -9,3 +9,6 @@ C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\
 C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.exe
 C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor Médico - Aplicaciones controles GUI.pdb
 C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.contrasenaOlvidada.resources
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.HubUsuario.resources
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.agregarPaciente.resources
+C:\Users\FRANYA\OneDrive\Escritorio\Gestor Médico - Aplicaciones controles GUI\obj\Debug\Gestor_Médico___Aplicaciones_controles_GUI.agregarCita.resources

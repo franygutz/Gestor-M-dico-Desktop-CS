@@ -13,6 +13,7 @@ namespace Gestor_Médico___Aplicaciones_controles_GUI
     public partial class fRegistroGestor : Form
     {
         private contrasenaOlvidada contraOlvidada;
+        private HubUsuario controlesHubUsuario;
 
         public fRegistroGestor()
         {
@@ -29,6 +30,36 @@ namespace Gestor_Médico___Aplicaciones_controles_GUI
 
             this.Hide(); //oculta la ventana actual
             contraOlvidada.Show(); //permite abrir el formulario de contraseña olvidada
+        }
+
+        private void bSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bIngresar_Click(object sender, EventArgs e)
+        {
+            if (controlesHubUsuario == null || controlesHubUsuario.IsDisposed)
+            {
+                controlesHubUsuario = new HubUsuario();
+                controlesHubUsuario.FormClosed += (s, args) => this.Show(); //permite abrir el formulario de registro si el contraseña olvidad se cierra
+            }
+
+            this.Hide(); //oculta la ventana actual
+            controlesHubUsuario.Show(); //permite abrir el formulario de contraseña olvidada
+
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox tb)
+                {
+                    tb.Text = string.Empty; // Limpia el texto de TextBox
+                }
+                else if (control is MaskedTextBox mtb)
+                {
+                    mtb.Text = string.Empty; // Limpia el texto de MaskedTextBox
+                }
+            }
+
         }
     }
 }
