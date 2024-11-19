@@ -47,6 +47,19 @@ namespace Gestor_Médico___Aplicaciones_controles_GUI
 
             this.Hide(); //oculta la ventana actual
             controlesHubUsuario.Show(); //permite abrir el formulario de contraseña olvidada
+
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox tb)
+                {
+                    tb.Text = string.Empty; // Limpia el texto de TextBox
+                }
+                else if (control is MaskedTextBox mtb)
+                {
+                    mtb.Text = string.Empty; // Limpia el texto de MaskedTextBox
+                }
+            }
+
         }
     }
 }

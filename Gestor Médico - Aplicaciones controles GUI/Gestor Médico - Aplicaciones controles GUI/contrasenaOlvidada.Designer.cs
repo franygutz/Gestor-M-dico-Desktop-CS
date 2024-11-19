@@ -38,15 +38,16 @@
             this.lIndicacion = new System.Windows.Forms.Label();
             this.bVolver = new System.Windows.Forms.Button();
             this.bIrGmail = new System.Windows.Forms.Button();
+            this.bAceptar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbCuadroBlanco)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoRandom)).BeginInit();
             this.SuspendLayout();
             // 
             // pbCuadroBlanco
             // 
+            this.pbCuadroBlanco.BackColor = System.Drawing.Color.White;
             this.pbCuadroBlanco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbCuadroBlanco.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbCuadroBlanco.Image = ((System.Drawing.Image)(resources.GetObject("pbCuadroBlanco.Image")));
             this.pbCuadroBlanco.Location = new System.Drawing.Point(169, 65);
             this.pbCuadroBlanco.Name = "pbCuadroBlanco";
             this.pbCuadroBlanco.Size = new System.Drawing.Size(265, 249);
@@ -113,9 +114,9 @@
             this.lIndicacion.BackColor = System.Drawing.Color.White;
             this.lIndicacion.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.lIndicacion.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lIndicacion.Location = new System.Drawing.Point(200, 194);
+            this.lIndicacion.Location = new System.Drawing.Point(197, 194);
             this.lIndicacion.Name = "lIndicacion";
-            this.lIndicacion.Size = new System.Drawing.Size(200, 62);
+            this.lIndicacion.Size = new System.Drawing.Size(216, 62);
             this.lIndicacion.TabIndex = 6;
             this.lIndicacion.Text = "Esta opción le permite recuperar su contraseña, enviando un código de acceso a la" +
     " dirección de correo electrónico asociada al usuario ingresado. Su contaseña es " +
@@ -127,7 +128,7 @@
             this.bVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bVolver.Location = new System.Drawing.Point(202, 272);
             this.bVolver.Name = "bVolver";
-            this.bVolver.Size = new System.Drawing.Size(86, 23);
+            this.bVolver.Size = new System.Drawing.Size(61, 23);
             this.bVolver.TabIndex = 7;
             this.bVolver.Text = "Volver";
             this.bVolver.UseVisualStyleBackColor = true;
@@ -137,13 +138,25 @@
             // 
             this.bIrGmail.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bIrGmail.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bIrGmail.Location = new System.Drawing.Point(311, 272);
+            this.bIrGmail.Location = new System.Drawing.Point(339, 272);
             this.bIrGmail.Name = "bIrGmail";
-            this.bIrGmail.Size = new System.Drawing.Size(86, 23);
+            this.bIrGmail.Size = new System.Drawing.Size(61, 23);
             this.bIrGmail.TabIndex = 8;
             this.bIrGmail.Text = "Ir a Gmail";
             this.bIrGmail.UseVisualStyleBackColor = true;
             this.bIrGmail.Click += new System.EventHandler(this.bIrGmail_Click);
+            // 
+            // bAceptar
+            // 
+            this.bAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bAceptar.Location = new System.Drawing.Point(272, 272);
+            this.bAceptar.Name = "bAceptar";
+            this.bAceptar.Size = new System.Drawing.Size(61, 23);
+            this.bAceptar.TabIndex = 9;
+            this.bAceptar.Text = "Aceptar";
+            this.bAceptar.UseVisualStyleBackColor = true;
+            this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
             // 
             // contrasenaOlvidada
             // 
@@ -152,6 +165,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(590, 377);
+            this.Controls.Add(this.bAceptar);
             this.Controls.Add(this.bIrGmail);
             this.Controls.Add(this.bVolver);
             this.Controls.Add(this.lIndicacion);
@@ -184,5 +198,6 @@
         private System.Windows.Forms.Label lIndicacion;
         private System.Windows.Forms.Button bVolver;
         private System.Windows.Forms.Button bIrGmail;
+        private System.Windows.Forms.Button bAceptar;
     }
 }

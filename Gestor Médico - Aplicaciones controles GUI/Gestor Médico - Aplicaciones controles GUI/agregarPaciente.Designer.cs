@@ -227,13 +227,15 @@
             // dtpNacimiento
             // 
             this.dtpNacimiento.Location = new System.Drawing.Point(272, 210);
+            this.dtpNacimiento.MaxDate = new System.DateTime(2024, 11, 18, 0, 0, 0, 0);
             this.dtpNacimiento.Name = "dtpNacimiento";
             this.dtpNacimiento.Size = new System.Drawing.Size(198, 20);
             this.dtpNacimiento.TabIndex = 17;
+            this.dtpNacimiento.Value = new System.DateTime(2024, 11, 18, 0, 0, 0, 0);
             // 
             // bVolver
             // 
-            this.bVolver.Location = new System.Drawing.Point(162, 316);
+            this.bVolver.Location = new System.Drawing.Point(176, 316);
             this.bVolver.Name = "bVolver";
             this.bVolver.Size = new System.Drawing.Size(75, 23);
             this.bVolver.TabIndex = 18;
@@ -253,7 +255,7 @@
             // 
             // bLimpiar
             // 
-            this.bLimpiar.Location = new System.Drawing.Point(395, 316);
+            this.bLimpiar.Location = new System.Drawing.Point(375, 316);
             this.bLimpiar.Name = "bLimpiar";
             this.bLimpiar.Size = new System.Drawing.Size(75, 23);
             this.bLimpiar.TabIndex = 20;

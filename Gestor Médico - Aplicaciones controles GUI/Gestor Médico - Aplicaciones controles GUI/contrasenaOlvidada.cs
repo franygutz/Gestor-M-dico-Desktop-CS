@@ -28,5 +28,22 @@ namespace Gestor_Médico___Aplicaciones_controles_GUI
             string url = "https://workspace.google.com/intl/es-419/gmail/"; //url de gmail
             System.Diagnostics.Process.Start(url); // permite abrirlo en el navegador predeterminado
         }
+
+        private void bAceptar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se ha enviado un correo con la nueva contraseña", "Registro de Usuario - Contraseña Olvidada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox tb)
+                {
+                    tb.Text = string.Empty; // Limpia el texto de TextBox
+                }
+                else if (control is MaskedTextBox mtb)
+                {
+                    mtb.Text = string.Empty; // Limpia el texto de MaskedTextBox
+                }
+            }
+        }
     }
 }
